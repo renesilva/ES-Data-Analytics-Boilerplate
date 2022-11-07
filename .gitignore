@@ -73,6 +73,6 @@ target/
 .ipynb_checkpoints/
 
 # Carpetas
-data_in/
-data_out/
-data_db/
+data_in/*
+data_out/*
+data_db/*
