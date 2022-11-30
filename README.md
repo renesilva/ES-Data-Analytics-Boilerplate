@@ -56,6 +56,13 @@ Folder de exportacion de data.
 
 # Releases
 
+## 1.1
+
+- Adición de ejemplo para Jupyter
+- Adición de script para identificación de género a partir del nombre
+- Adición de un notebook de ejemplo con explicación de cambio de ruta
+- Adición de corrección de teléfono para contexto en Bolivia
+
 ## 1.0
 
 - Paquete para el análisis de datos con Python
