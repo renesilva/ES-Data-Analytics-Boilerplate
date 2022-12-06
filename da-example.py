@@ -6,7 +6,14 @@ from pandas import Series, DataFrame
 
 import matplotlib.axes._axes as axes
 import matplotlib.figure as figure
+import sqlite3
 
 plt.style.use('ggplot')
 
-# %% Procesos
+# %% Conexión a base de datos
+conn = sqlite3.connect("./data_db/Chinook_Sqlite.sqlite")
+
+# %% Ejemplo de query y obtención
+
+df = pd.read_sql_query("SELECT * from Invoice", conn)
+g_country = df.groupby(['BillingCountry'])[['BillingCountry']].agg('count')
