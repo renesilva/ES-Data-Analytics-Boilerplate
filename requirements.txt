@@ -5,3 +5,4 @@ numpy
 seaborn
 requests
 gspread
+scikit-learn
